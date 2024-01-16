@@ -6,8 +6,7 @@
 pnpm install -D @yutengjing/biome-config
 ```
 
-> [!NOTE]
-> @biomejs/biome is the peerDependencies
+> [!NOTE] > `@biomejs/biome` is the peerDependencies
 
 ## Config
 
@@ -22,7 +21,7 @@ pnpm install -D @yutengjing/biome-config
 
 ### VSCode settings
 
-Add following to `.vscode/settings.json`
+Add following to `.vscode/settings.json`:
 
 ```json
 {
@@ -35,6 +34,9 @@ Add following to `.vscode/settings.json`
   }
 }
 ```
+
+> [!NOTE]
+> Ensure you had already installed [biome VSCode extension](https://marketplace.visualstudio.com/items?itemName=biomejs.biome)
 
 ## Related
 
