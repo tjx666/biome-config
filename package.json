@@ -1,0 +1,30 @@
+{
+    "name": "@yutengjing/biome-config",
+    "version": "0.0.0",
+    "author": {
+        "name": "YuTengjing",
+        "url": "https://github.com/tjx666",
+        "email": "ytj2713151713@gmail.com"
+    },
+    "keywords": [
+        "biome"
+    ],
+    "homepage": "https://github.com/tjx666/biome-config",
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/",
+        "access": "public"
+    },
+    "main": "biome.json",
+    "files": [
+        "biome.json"
+    ],
+    "scripts": {
+        "release": "bumpp -c \"release: v%s\" package.json && pnpm publish"
+    },
+    "peerDependencies": {
+        "@biomejs/biome": "^1.5.2"
+    },
+    "devDependencies": {
+        "bumpp": "^9.2.1"
+    }
+}
